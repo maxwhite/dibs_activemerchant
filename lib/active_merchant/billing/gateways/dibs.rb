@@ -19,7 +19,7 @@ module ActiveMerchant #:nodoc:
       # The statuses that DIBS return on a successfull transaction.
       SUCCESS_TYPES = ["ACCEPT", "PENDING"]
       
-      # Set the default currency separator
+      # Set the default currency separator!
       self.money_format = :cents
       
       # Set the default currency
