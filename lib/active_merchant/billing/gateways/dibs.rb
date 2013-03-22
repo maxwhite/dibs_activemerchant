@@ -19,8 +19,10 @@ module ActiveMerchant #:nodoc:
       # The statuses that DIBS return on a successfull transaction.
       SUCCESS_TYPES = ["ACCEPT", "PENDING"]
       
+      # Set the default currency separator
       self.money_format = :cents
       
+      # Set the default currency
       self.default_currency = 'DKK'
       
       # The countries the gateway supports merchants from as 2 digit ISO country codes
